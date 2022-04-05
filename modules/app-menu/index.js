@@ -39,7 +39,7 @@ function AppRoutes({ options }) {
     <View>
       <Text style={options.styles.text}>
         {options.copy}({routes.length})
-      </Text>
+      </Map & GPS/>
       {links}
     </View>
   );
